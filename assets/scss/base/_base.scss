@@ -1,5 +1,8 @@
-*::after{
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* outline: solid 1px; */
 }
 img{
     max-width: 100%;
