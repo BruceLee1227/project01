@@ -21,3 +21,10 @@
 .d-flex {
   display: flex;
 }
+
+@include mobile-larger{
+  .px-sm-0{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
