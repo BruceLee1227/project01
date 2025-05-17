@@ -1,6 +1,7 @@
 .header{
   background: $primary;
   color:$bg-light;
+  padding: 16px 0;
   &-wrapper{
     display: flex;
     justify-content: space-between;
@@ -19,3 +20,4 @@
     }
   }
 }
+
